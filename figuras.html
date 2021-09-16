@@ -7,7 +7,49 @@
     <title>Taller de formas geometricas</title>
 </head>
 <body>
-    <h1 class="h1">Figuras Geometricas</h1>
+    <header>
+        <h1>Figuras Geometricas</h1>
+        <p>Esta pagina es para calcular perimetros y areas de figuras geometricas</p>
+    </header>
+
+    <section>
+        <h2>-Cuadrado:</h2>
+        <form action="">
+            <label for="inputLadoCuadrado">
+                Ingrese uno de los lados del cuadrado: 
+            </label>
+            <input type="number" name="inputDato" id="inputLadoCuadrado" placeholder="Un lado" />
+            <button type="button" class="inputValue" id="buttonPerimetroCuadrado" onclick="calcularPerimetroCuadrado()">Calcular Perimetro</button>
+            <button class="inputValue" type="button" id="buttonAreaCuadrado" onclick="calcularAreaCuadrado()">Calcular area</button>
+        </form>
+    </section>
+    
+    <section>
+        <h2>-Triangulo:</h2>
+        <form action="">
+            <label for="button">
+                Ingrese los lados del triangulo: 
+            </label>
+            <input type="number" name="inputDato" id="inputLado1Triangulo" placeholder="lado 1"/>
+            <input type="number" name="inputDato" id="inputLado2Triangulo" placeholder="lado 2"/>
+            <input type="number" name="inputDato" id="inputBaseTriangulo" placeholder="base"/>
+            <input type="number" name="inputDato" id="inputAlturaTriangulo" placeholder="altura"/>
+            <button type="button" class="inputValue" id="buttonPerimetroTriangulo" onclick="calcularPerimetroTriangulo()">Calcular Perimetro</button>
+            <button class="inputValue" type="button" id="buttonAreaTriangulo" onclick="calcularAreaTriangulo()">Calcular area</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>-Circulo:</h2>
+        <form action="">
+            <label for="button">
+                Ingrese uno de los lados del cuadrado: 
+            </label>
+            <input type="number" name="inputDato" id="inputRadioCirculo" placeholder="radio" />
+            <button type="button" class="inputValue" id="buttonPerimetroCirculo" onclick="calcularPerimetroCirculo()">Calcular Perimetro</button>
+            <button class="inputValue" type="button" id="buttonAreaCirculo" onclick="calcularAreaCirculo()">Calcular area</button>
+        </form>
+    </section>
 
     <script src="figuras.js"></script>
 </body>
