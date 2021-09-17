@@ -7,7 +7,28 @@
     <title>Descuentos</title>
 </head>
 <body>
+    <header>
+        <h1>Precio y descuentos</h1>
+        <p>Esta pagina es para poder calcular el precio y el descuento total de un determinado producto</p>
+    </header>
     
+    <section>
+        <h2>Calculadora</h2>
+        <p>Coloque los datos necesarios para realizar la cuenta</p>
+
+        <form>
+            <label for="inputPrice">Coloque el precio total:</label>
+            <input type="number" id="inputPrice" />
+
+            <label for="inputDiscount">Coloque el descuento que se le va a realizar:</label>
+            <input type="number" id="inputDiscount" />
+            
+            <button type="button" onclick="buttonCalcular()">Calcular</button>
+
+            <p id="result"></p>
+        </form>
+    </section>
     
+    <script src="./descuento.js"></script>
 </body>
 </html>

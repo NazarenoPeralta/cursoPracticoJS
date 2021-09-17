@@ -1,0 +1,35 @@
+[33mcommit 542cd5f08f5a4eba63e2726fa6e0da3f87c22826[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Franco Nazareno Peralta <nazaperalta@outlook.com>
+Date:   Fri Sep 17 10:39:47 2021 -0300
+
+    Me olvide estos archivos(taller nuevo)
+
+[33mcommit 85480ea7f63aef6bce3aa726ea010c7e3e0b8e92[m
+Author: Franco Nazareno Peralta <nazaperalta@outlook.com>
+Date:   Fri Sep 17 10:38:07 2021 -0300
+
+    Nuevo taller,  'descuentos'
+
+[33mcommit b3a1552256ba10f8ff2aca2c60a2eab3deaecd1c[m
+Author: Naza Peralta <nazaperalta@outlook.com>
+Date:   Thu Sep 16 10:49:50 2021 -0300
+
+    Interaccion con el usuario y funciones terminadas
+
+[33mcommit 9a0d50d4d6be284873d0aafef48e614018036e2b[m
+Author: Naza Peralta <nazaperalta@outlook.com>
+Date:   Wed Sep 15 11:22:06 2021 -0300
+
+    Formulas completas
+
+[33mcommit bbf6f31d5e95440d42888e2fe9a7b4155982257c[m
+Author: Naza Peralta <nazaperalta@outlook.com>
+Date:   Wed Sep 15 11:21:00 2021 -0300
+
+    Inicio de calculadora geometrica, solo formulas
+
+[33mcommit 57c5c0a934016bb583a2af6d188723f6e847dfb0[m
+Author: NazarenoPeralta <67437797+NazarenoPeralta@users.noreply.github.com>
+Date:   Tue Sep 14 09:07:32 2021 -0300
+
+    Initial commit
