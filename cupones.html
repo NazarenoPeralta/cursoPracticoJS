@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupones</title>
+</head>
+<body>
+    <header>
+        <h1>Precio y descuentos</h1>
+        <p>Esta pagina es para poder calcular el precio y el descuento total segun el cupon</p>
+    </header>
+    
+    <section>
+        <h2>Calculadora</h2>
+        <p>Coloque los datos necesarios para realizar la cuenta</p>
+
+        <form>
+            <label for="inputPrice">Coloque el precio total:</label>
+            <input type="number" id="inputPrice" />
+
+            <label for="inputCoupon">Coloque el cupon de descuento:</label>
+            <input type="text" id="inputCoupon" />
+            
+            <button type="button" onclick="buttonClick()">Calcular</button>
+
+            <p id="result"></p>
+        </form>
+    </section>
+    
+    <script src="./cupones.js"></script>
+</body>
+</html>
