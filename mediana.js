@@ -11,6 +11,11 @@ function calcularPromedio (lista){
 
 }
 
+function ordenarLista(lista){
+    
+    
+}
+
 function esPar(numero){
     if(numero % 2 === 0){
         return true;
@@ -19,14 +24,22 @@ function esPar(numero){
     }
 }
 
+let mediana;
+let listaFinal;
 
 function calcularMediana(lista){
     let mitadLista = parseInt(lista.length / 2)
-    
-    if(esPar(lista.length)){
-        //FALTA COMPLETAR
-    }else{
-        //FALTA COMPLETAR
-    }
+    listaFinal = lista.sort((a, b) => a - b);
 
+    if(esPar(listaFinal.length)){
+        const elemento1 = listaFinal[mitadLista - 1];
+        const elemento2 = listaFinal[mitadLista];
+
+        mediana = calcularPromedio([elemento1, elemento2]);
+        
+    }else{
+        mediana = listaFinal[mitadLista];
+        
+    }
+    return mediana;
 }
