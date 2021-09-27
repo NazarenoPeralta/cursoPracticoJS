@@ -11,10 +11,7 @@ function calcularPromedio (lista){
 
 }
 
-function ordenarLista(lista){
-    
-    
-}
+
 
 function esPar(numero){
     if(numero % 2 === 0){
